@@ -1,0 +1,7 @@
+Q: How might using version control make you more confident to make changes that could break something?
+
+A: Using version control we can track when the changes are made also revert to a stable version of the code. In the event one needs to tweak one particular changeset, version control allows you to hone in on exactly what version of the code needs to be affected
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+A: Add a changeset and my own repository
