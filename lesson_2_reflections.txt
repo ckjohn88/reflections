@@ -17,3 +17,7 @@ A: When creating a dev version and keeping a stable version of the changeset, wh
 Q: How do the diagrams help you visualize the branch structure?
 
 A: Using the diagrams it gives a visual representation to the structure of the file commits, you can then visualize what the heads of each branch are, as well as recognize what branch you are working within.
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A: This brings the changesets from two branches together under a single branch. It allows the changes in the files under those changesets to be merged, accessed, and edited with the combined changes included.
