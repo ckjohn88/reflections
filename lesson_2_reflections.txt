@@ -5,3 +5,15 @@ A: Initializing a repository creates the .git folder and implies an empty reposi
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 A: The staging area acts almost as a checkout. It allows you to single out precisely what changes you would like to include in each individual commit, it also lets you know using the status command exactly what files will be changed when you apply the next commit
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+A: By using the diff tool to compare the files in the staging area to either the working folder or the latest commit in the repository one can determine what files/changes will be included in the next commit.
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A: When creating a dev version and keeping a stable version of the changeset, when creating multiple language options, or creating a lite version of a the same program. Branches allow you to run/keep multiple versions of the program at the same time.
+
+Q: How do the diagrams help you visualize the branch structure?
+
+A: Using the diagrams it gives a visual representation to the structure of the file commits, you can then visualize what the heads of each branch are, as well as recognize what branch you are working within.
