@@ -21,3 +21,7 @@ A: Using the diagrams it gives a visual representation to the structure of the f
 Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 A: This brings the changesets from two branches together under a single branch. It allows the changes in the files under those changesets to be merged, accessed, and edited with the combined changes included.
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A: Automatic merging is great for handling trivial changes that do not need further analysis. On the other hand in those instances where a manual merge is neccesary, it is great that git will warn the user and point them directly to the area in the code which needs addressing
